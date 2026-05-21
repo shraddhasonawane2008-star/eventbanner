@@ -1,0 +1,109 @@
+/* ======================================================
+LIVE PARTICIPATION CSS
+====================================================== */
+
+.participation-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.participation-card{
+    background:#fff;
+    padding:35px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.participation-card:hover{
+    transform:translateY(-8px);
+}
+
+.participation-card i{
+    font-size:40px;
+    color:#0077ff;
+    margin-bottom:20px;
+}
+
+.participation-card h3{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+/* ======================================================
+UPCOMING SCHEDULE CSS
+====================================================== */
+
+.schedule-container{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.schedule-card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.schedule-date{
+    background:#0077ff;
+    color:#fff;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    min-width:90px;
+}
+
+.schedule-date h3{
+    font-size:32px;
+}
+
+.schedule-content h3{
+    margin-bottom:10px;
+}
+
+.schedule-content p{
+    color:#666;
+    margin-bottom:8px;
+}
+
+/* ======================================================
+CHAMPIONSHIP STANDINGS CSS
+====================================================== */
+
+.standings-table{
+    overflow-x:auto;
+}
+
+.standings-table table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.standings-table th{
+    background:#0077ff;
+    color:#fff;
+    padding:18px;
+    text-align:center;
+}
+
+.standings-table td{
+    padding:16px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+.standings-table tr:hover{
+    background:#f4f8ff;
+}

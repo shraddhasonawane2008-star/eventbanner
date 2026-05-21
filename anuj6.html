@@ -1,0 +1,80 @@
+<!-- =========================================
+EVENT REGISTRATION MODULE
+PHP BACKEND READY
+========================================= -->
+
+<section class="registration-section">
+
+    <div class="registration-container">
+
+        <div class="registration-title">
+
+            <h2>Event Registration</h2>
+
+            <p>
+                Fill the form to participate in gymkhana events.
+            </p>
+
+        </div>
+
+        <form action="register-event.php" method="POST" class="registration-form">
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="fullname" required>
+            </div>
+
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="text" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label>Select Event</label>
+
+                <select name="event_name" required>
+
+                    <option value="">
+                        Choose Event
+                    </option>
+
+                    <option value="Cricket">
+                        Cricket Tournament
+                    </option>
+
+                    <option value="Football">
+                        Football Championship
+                    </option>
+
+                    <option value="Chess">
+                        Chess Competition
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="form-group">
+                <label>Department</label>
+                <input type="text" name="department" required>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+
+            <button type="submit" class="register-btn">
+                Submit Registration
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
