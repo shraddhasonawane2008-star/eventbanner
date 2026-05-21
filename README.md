@@ -1,0 +1,2 @@
+# eventbanner
+eventrelateddetail
